@@ -10,10 +10,14 @@ namespace InterviewPrep
             Console.ForegroundColor = ConsoleColor.Cyan;
             //Console.WriteLine("Watch me reverse the numbers.");
 
-            Array_Reversal ara = new Array_Reversal();
-            int[] input = { 4, 8, 15, 16, 23, 42 };
-            ara.Reverse(input);
-            Console.ReadLine();
+            RemoveDuplicates rd = new RemoveDuplicates();
+            rd.RemoveAllDupes("aardvarks");
+            Console.ReadKey();
+
+            //Array_Reversal ara = new Array_Reversal();
+            //int[] input = { 4, 8, 15, 16, 23, 42 };
+            //ara.Reverse(input);
+            //Console.ReadLine();
 
             //Console.WriteLine("Below is a more efficient way of reversing an array. Forgive the duplicates.");
             //Reverse(input);
@@ -74,11 +78,8 @@ namespace InterviewPrep
             //sbPlay.Compress("broken");
             //Console.ReadKey();
 
-            Fibonacci_Sequence fibby = new Fibonacci_Sequence();
-            Console.WriteLine("Demonstrating recursive Fibonacci solution.");
-            fibby.RecursiveFibonacci(7);
-            Console.WriteLine("Demonstrating iterative Fibonacci solution.");
-            fibby.IterativeFibonacci(7);
+
+
 
             Console.ReadLine();
         }
