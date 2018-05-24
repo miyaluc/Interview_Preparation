@@ -58,10 +58,10 @@ namespace InterviewPrep
             //sf.FindAllCombos(array3, x);
             //Console.ReadLine();
 
-            Coin_Change cc = new Coin_Change();
-            int[] coins = { 1, 10, 25 };
-            cc.CoinChange(coins, 30);
-            Console.ReadLine();
+            //Coin_Change cc = new Coin_Change();
+            //int[] coins = { 1, 10, 25 };
+            //cc.CoinChange(coins, 30);
+            //Console.ReadLine();
 
             //LargestProduct lc = new LargestProduct();
             //int[,] testArray = { {1,5}, {2,3 }, {3,6 }  };
@@ -71,8 +71,15 @@ namespace InterviewPrep
             //StringCompression sbPlay = new StringCompression();
             //sbPlay.Compress("pupppyyyy");
             //sbPlay.Compress("broken");
-
             //Console.ReadKey();
+
+            Fibonacci_Sequence fibby = new Fibonacci_Sequence();
+            Console.WriteLine("Demonstrating recursive Fibonacci solution.");
+            fibby.RecursiveFibonacci(7);
+            Console.WriteLine("Demonstrating iterative Fibonacci solution.");
+            fibby.IterativeFibonacci(7);
+
+            Console.ReadLine();
         }
     }
 }
