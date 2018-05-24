@@ -10,9 +10,10 @@ namespace InterviewPrep
             Console.ForegroundColor = ConsoleColor.Cyan;
             //Console.WriteLine("Watch me reverse the numbers.");
 
-            //int[] input = { 4, 8, 15, 16, 23, 42 };
-            //ReverseArray(input);
-            //Console.ReadLine();
+            Array_Reversal ara = new Array_Reversal();
+            int[] input = { 4, 8, 15, 16, 23, 42 };
+            ara.Reverse(input);
+            Console.ReadLine();
 
             //Console.WriteLine("Below is a more efficient way of reversing an array. Forgive the duplicates.");
             //Reverse(input);
@@ -58,10 +59,10 @@ namespace InterviewPrep
             //sf.FindAllCombos(array3, x);
             //Console.ReadLine();
 
-            Coin_Change cc = new Coin_Change();
-            int[] coins = { 1, 10, 25 };
-            cc.CoinChange(coins, 30);
-            Console.ReadLine();
+            //Coin_Change cc = new Coin_Change();
+            //int[] coins = { 1, 10, 25 };
+            //cc.CoinChange(coins, 30);
+            //Console.ReadLine();
 
             //LargestProduct lc = new LargestProduct();
             //int[,] testArray = { {1,5}, {2,3 }, {3,6 }  };

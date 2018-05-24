@@ -6,7 +6,7 @@ namespace InterviewPrep
 {
     class Array_Reversal
     {
-        static int[] ReverseArray(int[] input)
+        public int[] ReverseArray(int[] input)
         {
             //declare new int array called newArray, with the length of input
             int[] newArray = new int[input.Length];
@@ -30,7 +30,7 @@ namespace InterviewPrep
             return newArray;
         }
 
-        static void Reverse(int[] input)
+        public void Reverse(int[] input)
         {
             //implement for loop with length of input divided by 2
             for (int i = 0; i < input.Length / 2; i++)
