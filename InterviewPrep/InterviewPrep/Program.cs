@@ -72,8 +72,15 @@ namespace InterviewPrep
             //StringCompression sbPlay = new StringCompression();
             //sbPlay.Compress("pupppyyyy");
             //sbPlay.Compress("broken");
-
             //Console.ReadKey();
+
+            Fibonacci_Sequence fibby = new Fibonacci_Sequence();
+            Console.WriteLine("Demonstrating recursive Fibonacci solution.");
+            fibby.RecursiveFibonacci(7);
+            Console.WriteLine("Demonstrating iterative Fibonacci solution.");
+            fibby.IterativeFibonacci(7);
+
+            Console.ReadLine();
         }
     }
 }
