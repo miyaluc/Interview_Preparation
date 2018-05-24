@@ -17,8 +17,8 @@ namespace InterviewPrep
             
             Node head;
 
-            Node walker = head;
-            Node runner = head;
+            //Node walker = head;
+            //Node runner = head;
 
         }
     }
