@@ -10,10 +10,10 @@ namespace InterviewPrep
             Console.ForegroundColor = ConsoleColor.Cyan;
             //Console.WriteLine("Watch me reverse the numbers.");
 
-            Array_Reversal ara = new Array_Reversal();
-            int[] input = { 4, 8, 15, 16, 23, 42 };
-            ara.Reverse(input);
-            Console.ReadLine();
+            //Array_Reversal ara = new Array_Reversal();
+            //int[] input = { 4, 8, 15, 16, 23, 42 };
+            //ara.Reverse(input);
+            //Console.ReadLine();
 
             //Console.WriteLine("Below is a more efficient way of reversing an array. Forgive the duplicates.");
             //Reverse(input);
@@ -74,12 +74,21 @@ namespace InterviewPrep
             //sbPlay.Compress("broken");
             //Console.ReadKey();
 
-            Fibonacci_Sequence fibby = new Fibonacci_Sequence();
-            Console.WriteLine("Demonstrating recursive Fibonacci solution.");
-            fibby.RecursiveFibonacci(7);
-            Console.WriteLine("Demonstrating iterative Fibonacci solution.");
-            fibby.IterativeFibonacci(7);
+            //Fibonacci_Sequence fibby = new Fibonacci_Sequence();
+            //Console.WriteLine("Demonstrating recursive Fibonacci solution.");
+            //fibby.RecursiveFibonacci(7);
+            //Console.WriteLine("Demonstrating iterative Fibonacci solution.");
+            //fibby.IterativeFibonacci(7);
 
+            int[] deck = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43,  44, 45, 46, 47, 48, 9, 50, 51};
+
+            CardShark sharky = new CardShark();
+            sharky.ShuffleCards(deck, 52);
+
+            foreach(int card in deck) 
+            {
+                Console.WriteLine(card);
+            }
             Console.ReadLine();
         }
     }
