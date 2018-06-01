@@ -10,10 +10,14 @@ namespace InterviewPrep
             Console.ForegroundColor = ConsoleColor.Cyan;
             //Console.WriteLine("Watch me reverse the numbers.");
 
-            Array_Reversal ara = new Array_Reversal();
-            int[] input = { 4, 8, 15, 16, 23, 42 };
-            ara.Reverse(input);
-            Console.ReadLine();
+            //Array_Reversal ara = new Array_Reversal();
+            int[] input = { 16, 42, 4, 23, 15, 8 };
+            //ara.Reverse(input);
+            //Console.ReadLine();
+
+            Max3 max = new Max3();
+            max.FindMax3(input);
+            Console.ReadKey();
 
             //Console.WriteLine("Below is a more efficient way of reversing an array. Forgive the duplicates.");
             //Reverse(input);
